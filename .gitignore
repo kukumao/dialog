@@ -1,0 +1,12 @@
+.project
+*.html
+
+# Editor directories and files
+.idea/
+.svn/
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.svn

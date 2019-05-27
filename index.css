@@ -1,0 +1,71 @@
+
+.z-dialog {
+	background: #fff;
+	box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 300px;
+	height: 180px;
+	border: 1px solid #dcdcdc;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.z-dialog-close {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.z-dialog-content {
+	padding: 0 0 50px;
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.z-dialog-content .content-txt {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+
+.z-dialog-footer {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 1px solid #dcdcdc;
+}
+
+.z-dialog-footer .z-dialog-btn {
+	display: table-cell;
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.z-dialog-footer .z-dialog-btn:last-child {
+	display: table-cell;
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	border-left: 1px solid #dcdcdc;
+}
